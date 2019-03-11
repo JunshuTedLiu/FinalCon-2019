@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Additional stylesheet link goes here -->
+    <link rel="stylesheet" type="text/css" href="css/boot.css">
+    <title>FinalCon 2019</title>
+    
+    <script>
+    $(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
+    </script>
+</head>
+
+<body>
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <!--                    instead of link to index.html, use # for just jumping back to the top of the page.-->
+            <img src="assets/FinalCon.png" class="align-top" style="width: 120px;">
+            2019
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+<!--                    instead of link to index.html, use # for just jumping back to the top of the page.-->
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#schedule" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedule</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="march11.html">Mar 11, KnoGlo 2.0 Keynote</a>
+                        <a class="dropdown-item" href="march14.html">Mar 14, IoT and HCI: Speaker Series</a>
+                        <a class="dropdown-item" href="march15.html">Mar 15, A dream of Silicon Valley: NLP Research</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-junshu.html">About Junshu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="jumbotron jumbotron-fluid" style="margin-top: 95px; background-color: #f2f2f2" >
+        <div class="container text-center">
+
+            <img src="assets/FinalCon.png" style="width: 50%;">
+            <p class="lead text-center" style="font-size: 2em;">The University of Chicago Final Week Conference</p>
+            <p class="text-center">March 11 ~ 15, 2019</p>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid" style="background-color: #f2f2f2">
+        <div class="container">
+            <h1 class="display-4">An exciting final week.</h1>
+            <!--            <hr class="my-2">-->
+            <p class="lead" style="font-size: 1.5em;">Starting March 11, 2019, students in the University of Chicago will say hello to the final weeks of the Winter 2019 quarter.</p>
+            <p class="lead" style="font-size: 1.5em;">Junshu Liu, a master student in the Digital Studies program, will show us three exciting research progresses. He will introduce the updated version of the data analysis and visualization tool -KnoGlo 2.0; make a speech about IoT and its impacts, and present an NLP research project regarding the development of the Internet in the past 50 years.</p>
+        </div>
+    </div>
+
+    <div class='container my-5'>
+        <!--            style="padding-bottom: 150px;"-->
+        <h1 class="mb-4 text-center" id="schedule">SCHEDULE</h1>
+        <div class='card-group text-center'>
+            <div class='card'>
+                <div class='card-header'>
+                    <h2 class='card-text text-center'>March 11</h2>
+                    <p class='card-text text-center'>Wieboldt Hall 111<br>10:30am - 11:20am</p>
+                </div>
+                <div class='card-body'>
+                    <h4 class='card-text text-center'>Knowledge Globe (KnoGlo) 2.0 Keynote</h4>
+                    <p class='card-text text-center'>KnoGlo is a tool that allows users to analyze and visualize the distribution of research interests for the selected topic and year.
+                    </p>
+                    <p>
+                        This quarter, we introduce the new KnoGlo 2.0 with the same feature but runs directly on the webpage that will deliver an intuitive and convenient user experience.
+                    </p>
+                </div>
+                <div class='card-footer'>
+                    <button type="button" class="btn btn-link" onclick="learnMore311()">Learn more</button>
+                    <br>
+                    <button type="button" class="btn btn-primary" onclick="reserve()">Reserve a seat</button>
+                </div>
+            </div>
+
+            <div class='card'>
+                <div class='card-header'>
+                    <h2 class='card-text text-center'>March 14</h2>
+                    <p class='card-text text-center'>Oriental Institute 226C<br>3:00pm - 4:30pm</p>
+                </div>
+                <div class='card-body'>
+                    <h4 class='card-text text-center'>Speaker Series: IoT and how it will change everything</h4>
+                    <p class='card-text text-center'>IoT is one of the most popular topics in the technology industry.
+                    </p>
+                    <p>
+                        What is IoT? Except for the consumer market, who else is playing the game? How will it change people's lifestyle and even industries other than technology? And, for developers and designers: how it related to the study of HCI?
+                    </p>
+                </div>
+                <div class='card-footer'>
+                    <button type="button" class="btn btn-link" onclick="learnMore314()">Learn more</button>
+                    <br>
+                    <button type="button" class="btn btn-primary" onclick="reserve()">Reserve a seat</button>
+                </div>
+            </div>
+
+            <div class='card'>
+                <div class='card-header'>
+                    <h2 class='card-text text-center'>March 15</h2>
+                    <p class='card-text text-center'>Social Science Rsch Bldg 401<br>9:30am - 10:20am</p>
+                </div>
+                <div class='card-body'>
+                    <h4 class='card-text text-center'>A dream of Silicon Valley: from '69 to '19</h4>
+                    <p class='card-text text-center'>Using Natural Language Processing research technique, Let's take an in-depth look for the history of how computer and technology changes, especially the evolution of the Internet and its growing business, as well as how it changes every single industry other than tech industry and affects people's lifestyle.
+                    </p>
+                </div>
+                <div class='card-footer'>
+                    <button type="button" class="btn btn-link" onclick="learnMore315()">Learn more</button>
+                    <br>
+                    <button type="button" class="btn btn-primary" onclick="reserve()">Reserve a seat</button>
+                </div>
+            </div>
+            <script>
+                function reserve() {
+                    location.href = "reserve-seats.html";
+                }
+
+                function learnMore311() {
+                    location.href = "march11.html";
+                }
+                
+                function learnMore314() {
+                    location.href = "march14.html";
+                }
+                
+                function learnMore315() {
+                    location.href = "march15.html";
+                }
+
+            </script>
+        </div>
+    </div>
+
+
+
+
+    <footer class="bg-dark text-white d-none d-lg-block pt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col small">
+
+                    FinalCon. Make final week exciting and fun.
+
+                    <p>(c) 2019 FinalCon, Junshu Liu. All rights reserved. | <a href="contact-us.html">Contact Us</a></p>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="scripts/jquery.slim.min.js"></script>
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <!-- Additional JS goes here -->
+</body>
+
+</html>

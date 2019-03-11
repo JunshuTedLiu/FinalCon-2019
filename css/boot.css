@@ -1,0 +1,40 @@
+#main {
+  background-color: blanchedalmond;
+}
+
+.row {
+  font-size: xx-large;
+}
+
+/* Here's how you use a wildcard match
+in CSS. For more information, see this
+stackoverflow answer.
+https://stackoverflow.com/questions/5110249/wildcard-in-css-for-classes */
+div[class*=align-items-] {
+  height: 200px;
+}
+
+img {
+  width: 800px;
+}
+
+.card-img-top {
+  width: 300px;
+}
+
+p {
+  font-size: large;
+}
+
+/* Here I change the default behavior
+of these built in Bootstrap typography
+classes to make them resize responsively. */
+.display-3 {
+  font-size: 7vmin;
+}
+
+.lead {
+  font-size: 3vmin;
+}
+
+/*# sourceMappingURL=boot.css.map */
